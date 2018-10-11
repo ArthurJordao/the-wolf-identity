@@ -16,3 +16,7 @@ Resources:
       ClientName: TheWolfWeb
       UserPoolId: !Ref UserPool
       GenerateSecret: false
+Outputs:
+  userPool:
+    Description: TheWolf user pool ID
+    Value: !Ref UserPool
