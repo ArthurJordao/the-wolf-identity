@@ -1,0 +1,1 @@
+aws cloudformation create-stack --template-body file://cognito-cloudformation.yml --stack-name the-wolf-identity
